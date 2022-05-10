@@ -3,8 +3,9 @@ import plusIcon from '../assets/ecommerce-product-page-main/images/icon-plus.svg
 import minusIcon from '../assets/ecommerce-product-page-main/images/icon-minus.svg'
 import cartIcon from '../assets/ecommerce-product-page-main/images/icon-cart.svg'
 import { productData } from './ProductShowcase'
+import CartIcon from './CartIcon'
 
-const ProductDetails = () => {
+const ProductDetails = ({ updateCount }) => {
     const [counter, setCounter] = useState(0)
 
     return (
@@ -33,12 +34,10 @@ const ProductDetails = () => {
                         <img src= {plusIcon} alt="" />
                     </button>
                 </div>
-                <div className="cart-btn">
-                <button id="add">
-                    <img src={cartIcon} alt="" />
+                <button id="add" className="cart-btn" onClick={() => updateCount(counter)}>
+                    <CartIcon color="white" />
+                    <span>Add to cart</span>
                 </button>
-                <span>Add to cart</span>
-                </div>
             </div>
         </div>
     )

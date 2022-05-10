@@ -34,6 +34,27 @@ nav #cart {
     border-radius: 50%;
 }
 
+nav .btnCart {
+    cursor: pointer;
+    position: relative;
+}
+
+nav .cart-count {
+    position: absolute;
+    top: -25%;
+    right: -25%;
+    background-color: var(--orange);
+    color: white;
+
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 100%;
+
+    padding: 3px 4px;
+    border-radius: 45%;
+
+}
+
 nav #profile {
     width: 45px;
     height: 45px;

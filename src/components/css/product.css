@@ -114,18 +114,22 @@ gap: 0.8rem;
     align-items: center;
     justify-content: center;
     gap: 20px;
-    background-color: var(--grayish-blue);
+    background-color: rgb(232, 229, 229);
     padding: 10px 15px;
     border-radius: 8px;
 }
 
 .cart-btn{
+    width: 200px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
     background-color: var(--orange);
-    padding: 10px 45px;
+    padding: 10px 1px;
     border-radius: 8px;
     color: var(--White);
 }
