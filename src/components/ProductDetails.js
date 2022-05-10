@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import plusIcon from '../assets/ecommerce-product-page-main/images/icon-plus.svg'
 import minusIcon from '../assets/ecommerce-product-page-main/images/icon-minus.svg'
-import cartIcon from '../assets/ecommerce-product-page-main/images/icon-cart.svg'
 import { productData } from './ProductShowcase'
 import CartIcon from './CartIcon'
 

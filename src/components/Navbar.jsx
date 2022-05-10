@@ -1,6 +1,5 @@
 import React from 'react'
 import logo from '../assets/ecommerce-product-page-main/images/logo.svg'
-import cartIcon from '../assets/ecommerce-product-page-main/images/icon-cart.svg'
 import avatar from '../assets/ecommerce-product-page-main/images/image-avatar.png'
 import './css/nav.css'
 import CartIcon from './CartIcon'
